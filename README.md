@@ -70,7 +70,7 @@
 
 ### ブラウザでプレイ
 
-unityroom で公開しています: **（unityroom の URL を記入）**
+unityroom で公開しています: **（https://unityroom.com/games/flyeater_kawazu）**
 
 ## 6. 自分が担当した実装（ハエ・ハチの生成と動き）
 
