@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6343155018048216256
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7669812752878649568}
+  - component: {fileID: -5776192391150027149}
+  m_Layer: 0
+  m_Name: FlySpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7669812752878649568
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6343155018048216256}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.5, y: 0.35, z: 0.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-5776192391150027149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6343155018048216256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80cc407ce1a93324eb5e24e4a4fb6115, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FlySpawner
+  spawnDatas:
+  - {fileID: 11400000, guid: 0185e6440fd14c641ab8a823816e1da0, type: 2}
+  - {fileID: 11400000, guid: 6726a917cafd8c94d886660e30596922, type: 2}
+  - {fileID: 11400000, guid: a1f6aef699311b94a936d71971b6eeba, type: 2}
+  - {fileID: 11400000, guid: 1bc24f5b49bbbc647b2b10dbc94920d8, type: 2}
+  - {fileID: 11400000, guid: a2365cabfa8691144933e9feae790c27, type: 2}
+  - {fileID: 11400000, guid: f7979097eb20b604c8b55790ca7f793c, type: 2}
+  - {fileID: 11400000, guid: cc9737e75ffd27b4fb768e1dddb5521e, type: 2}
+  - {fileID: 11400000, guid: 4102853b7ee275b4893d3657fc929f9a, type: 2}
+  - {fileID: 11400000, guid: 02e33e52e5ccf6c4abaecb61de165c9d, type: 2}
+  seed: 12345
+  normalWeight: 100
+  bossWeight: 0
+  beeWeight: 0
+  leftMinX: -60
+  leftMaxX: -60
+  leftMinY: -100
+  leftMaxY: 0
+  rightMinX: 60
+  rightMaxX: 60
+  rightMinY: -100
+  rightMaxY: 0
+  bottomMinX: -60
+  bottomMaxX: 60
+  bottomMinY: -120
+  bottomMaxY: -120
+  minSpawnInterval: 0.3
+  maxSpawnInterval: 1

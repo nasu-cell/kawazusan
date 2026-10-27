@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2db90a8bc661a8b47acec68a29d1966d, type: 3}
+  m_Name: RightUp5_Straght_Right
+  m_EditorClassIdentifier: Assembly-CSharp::FlyFormationSpawnData
+  flyPrefab: {fileID: 3901590857018322602, guid: 087267e79a1e0754dad6d981c7e15b3a, type: 3}
+  flyType: 0
+  movePattern: {fileID: 11400000, guid: b3d6905c4498dc340bcc63cdbb619740, type: 2}
+  spawnArea: 1
+  formation: {fileID: 11400000, guid: e26614592b861e8418603d8051857811, type: 2}
