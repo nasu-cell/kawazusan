@@ -50,6 +50,10 @@
 | 対象プラットフォーム | スマートフォン |
 
 ## 5. 操作方法・実行方法
+### プレイ動画
+
+> [![動画を見る](https://img.youtube.com/vi/xcY2ZdJBt7E/0.jpg)](https://www.youtube.com/watch?v=xcY2ZdJBt7E)
+
 
 ### 操作方法
 
